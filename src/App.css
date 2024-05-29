@@ -15,7 +15,6 @@
 .TopChangeItem_content {
   height: 25%;
   width: 100%;
-  /* background-color: blue; */
   border-bottom: 1px solid rgba(163, 161, 161, 0.816);
   display: flex;
   flex-direction: row-reverse;
@@ -31,16 +30,7 @@
   justify-content: center;
   gap: 10px;
   cursor: pointer;
-}
-.ItemSell_content {
-  height: 98%;
-  width: 100px;
-  background-color: red;
-}
-.ItemExchange_content {
-  height: 98%;
-  width: 100px;
-  background-color: red;
+  
 }
 .ImageStyle_Item {
   height: 25px;
@@ -50,4 +40,124 @@
   font-size: 15px;
   font-weight: bold;
   color: #737373;
+}
+.Sell_content_Container {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Ditails_content_container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.Button_content {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemTop_input_content {
+  height: 80px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  border: 1px solid #909090;
+}
+
+.LuquidMoney_Content {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.TextStyle_Item2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.Input_style {
+  height: 98%;
+  width: 50%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.CountyLiqud_content_conteiner {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CountyLiqud_content {
+  height: 50%;
+  min-width: 55%;
+  max-width: fit-content;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  border-radius: 81px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.StyleContentText_Country {
+  height: 90%;
+  min-width: 30%;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.StyleText1_Country {
+  font-size: 10px;
+  color: black;
+  font-weight: bolder;
+}
+.StyleText2_Country {
+  font-size: 10px;
+  color: gray;
+  font-weight: bolder;
+}
+.Input2_style {
+  height: 97%;
+  width: 50%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Input_style3 {
+  height: 97%;
+  width: 50%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.StyleButton_content {
+  height: 64px;
+  width: 90%;
+  border-radius: 10px;
+  background: #3772ff;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
 }

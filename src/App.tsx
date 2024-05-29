@@ -1,6 +1,9 @@
 import  { useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
+import Sell from "./Components/Sell";
+import Buy from "./Components/Buy";
+import Exchange from "./Components/Exchange";
 
 export type PageState = "خرید" | "فروش" | "مبادله";
 
@@ -12,11 +15,11 @@ function App() {
         <Header page={page} setPage={setPage} />
         {
           page === "خرید" ? (
-            <></>
+            <Buy/>
           ) : page === "فروش" ? (
-            <></>
+            <Sell/>
           ) : (
-            <></>
+            <Exchange></Exchange>
           )
         }
       </div>
